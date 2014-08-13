@@ -1,0 +1,28 @@
+String - "A string of characters"
+
+Array = ["can be strings", "or numbers e.g.", 1,2,3,4,5, :hello]
+
+Variable = @stories #=> this can change
+
+Symbol = :story #=> this thing remains the samw
+
+Hash = { 	story_1: "Story number 1",
+			story_2: "Story number 3",
+			story_3: {
+						story_3_pt_1: "Story 3 - part 1";
+						story_3_pt_2: "Story 3 - part 2"}
+						}
+		}
+
+Accessing a hash:
+
+	Hash[:story_3] [:story_3_pt1] #=> "Part 1"
+
+Boolean = true, fasle
+Boolean operators = and, or, if, else
+
+if Hash[:story_1]
+	puts Hash[:story_1]
+else
+	puts "Sorry, there is no Hash [:story_1]"
+end
